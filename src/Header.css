@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header{
+    background-color: #132113;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    
+}
+.header_logo{
+    width: 7rem;
+    object-fit: contain;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  
+}
+.Search{
+    margin-top: 0.6rem;
+    display: flex;
+    flex: 1;
+}
+.Search_input{
+    padding: 10px;
+    font-size: 1rem;
+    height: 2rem;
+    width: 100%;
+}
+.Search_icon{
+    padding: 5px;
+    width: 2.4rem !important;
+    height: 2rem !important;
+    background-color: #cd904c;
+    cursor: pointer;
+}
+.Header_Link{
+    display: flex;
+
+   }
+   .Header_node{
+       color: white;
+       text-decoration: none;
+      }
+.Header_option{
+       display: flex;
+       flex-direction: column;
+       margin-left: 0.6rem;
+       margin-right: 0.6rem;
+          }
+.Header_firstline{
+    font-size: 0.7rem;
+}
+.Header_secondline{
+    font-weight: 800;
+}
+.Header_Shoping_icon{
+       color: white;
+       margin-right: 0.6rem;
+       margin-left: 0.4rem;
+       display: flex;
+       align-items: center;
+   }
